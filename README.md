@@ -1,3 +1,12 @@
+## Как собрать это...
+
+Заходим в стянутый каталог и выполняем (строго!) в нём:
+```sh
+git submodule update --init
+cmake .
+make # можно добавить -j<X>
+```
+
 [![CircleCI](https://circleci.com/gh/mpromonet/v4l2rtspserver.svg?style=shield)](https://circleci.com/gh/mpromonet/v4l2rtspserver)
 [![CirusCI](https://api.cirrus-ci.com/github/mpromonet/v4l2rtspserver.svg?branch=master)](https://cirrus-ci.com/github/mpromonet/v4l2rtspserver)
 [![Snap Status](https://snapcraft.io//v4l2-rtspserver/badge.svg)](https://snapcraft.io/v4l2-rtspserver)
